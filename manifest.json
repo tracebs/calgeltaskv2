@@ -1,0 +1,28 @@
+{
+    "widget":{
+            "name": "CalgelTask2",
+            "description": "Создание задач по параметрам",
+            "short_description": "Создание задач по параметрам",
+            "code": "calgeltaskv2",
+            "secret_key": "1ac787ecfdc97c7dc88b303af9a3a4a7da391cb39bc76913fff9345a8dc51a66",
+            "version": "1.3.14",
+            "interface_version": 2,
+            "init_once": false,
+            "locale":[
+                    "ru"
+                    ],
+            "installation": true
+            },
+    "locations":[
+            "lcard-1",
+            "settings"
+            ],
+    "settings":{   
+        "phoneformat":{
+			"name": "settings.pharam1",
+			"type": "text", 
+			"required": false
+        }
+    }
+
+}
